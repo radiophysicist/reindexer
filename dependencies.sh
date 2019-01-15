@@ -34,7 +34,7 @@ error_msg() {
 osx_deps="gperftools leveldb snappy cmake git"
 centos7_debs="gcc-c++ make snappy-devel gperftools-devel findutils curl tar unzip rpm-build rpmdevtools git"
 centos6_debs="centos-release-scl devtoolset-7-gcc devtoolset-7-gcc-c++ make snappy-devel gperftools-devel findutils curl tar unzip rpm-build git"
-debian_debs="build-essential g++ libgoogle-perftools-dev libsnappy-dev libleveldb-dev make curl unzip git"
+debian_debs="build-essential g++ libgoogle-perftools-dev libsnappy-dev libleveldb-dev make cmake curl unzip git"
 alpine_apks="g++ snappy-dev libexecinfo-dev make curl cmake unzip git"
 
 install_cmake_linux () {
