@@ -139,7 +139,6 @@ install_debian() {
             fi
         fi
     done
-    install_cmake_linux
     return $?
 }
 
